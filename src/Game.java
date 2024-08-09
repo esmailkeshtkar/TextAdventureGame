@@ -192,7 +192,6 @@ public class Game {
 		}
 		
 	}
-	
 
 	public void dead(){
 		System.out.println("\n---------------------------------------------\n");
