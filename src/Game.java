@@ -44,7 +44,6 @@ public class Game {
 		System.out.println("2: Attack the guard.");
 		System.out.println("3: Ignore the guard and leave the town.");
 		System.out.println("\n---------------------------------------------\n");
-		
 		choice = sc.nextInt();
 		
 		if(choice == 1)
@@ -77,8 +76,8 @@ public class Game {
 		System.out.println("3: Turn west.");
 		System.out.println("4: Go back south to town.");
 		System.out.println("\n---------------------------------------------\n");
-		
 		choice = sc.nextInt();
+		
 		if(choice == 1)
 			north();
 		if(choice == 2)
@@ -99,8 +98,8 @@ public class Game {
 		System.out.println("Your HP is now "+pHP);
 		System.out.println("\n1: Head back to the road you came from?");
 		System.out.println("\n---------------------------------------------\n");
-		
 		choice = sc.nextInt();
+		
 		if(choice == 1)
 			road();
 		else
@@ -115,6 +114,7 @@ public class Game {
 		System.out.println("\n1: Head back to the raoad you came from?");
 		System.out.println("\n---------------------------------------------\n");
 		choice = sc.nextInt();
+		
 		if(choice == 1)
 			road();
 		else
@@ -127,7 +127,6 @@ public class Game {
 		System.out.println("1: Fight the goblin");
 		System.out.println("2: Run from the goblin");
 		System.out.println("\n---------------------------------------------\n");
-		
 		choice = sc.nextInt();
 		
 		if(choice == 1)
@@ -145,7 +144,6 @@ public class Game {
 		System.out.println("\n1: Attack");
 		System.out.println("2: Run");
 		System.out.println("\n---------------------------------------------\n");
-		
 		choice = sc.nextInt();
 		
 		if(choice == 1)
@@ -154,7 +152,6 @@ public class Game {
 			road();
 		else
 			fight();
-		
 	}
 
 	public void attack() {
